@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>EasyJWT</id>
+    <version>1.0.0</version>
+    <title>Easy JWT</title>
+    <authors>Tavaresree</authors>
+    <owners>Renato Tavares Lima</owners>
+    <licenseUrl>https://github.com/RenatoTavaresLima/EasyJWT/wiki</licenseUrl>
+    <projectUrl>https://github.com/RenatoTavaresLima/EasyJWT/wiki</projectUrl>
+    <iconUrl>https://github.com/RenatoTavaresLima/EasyJWT/wiki</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Azure Functions are great! However, it is pretty difficult to get JWT authentication working on it. I've created this project to make it easier to migrate to serverless aplications (until Microsoft finds a better solution). Feel free to contribute!</description>
+    <releaseNotes>Initial 1.0.0 release</releaseNotes>
+    <copyright>Copyright 2020 Tavaresree</copyright>
+    <tags>Azure Functions JWT Token Authentication NetCore </tags>
+    <dependencies>
+        <dependency id="Microsoft.AspNetCore.Http" />
+        <dependency id="Microsoft.IdentityModel.Tokens" />
+    </dependencies>
+    <summary>JWT Helper for Azure Functions HTTP Trigger</summary>
+  </metadata>
+  <files>
+    <file src="EasyJWT.cs" />
+    <file src="easyjwt.csproj" />
+  </files>
+</package>
